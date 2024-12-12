@@ -61,12 +61,65 @@ The following steps were taken to clean the combined table and create a new clea
 - Removed the start and end station information as it was not to be used during analysis
 - Added additional columns: "start_date", "end_date", "start_time", "end_time", "start_hour", "day_of_week", "start_month", and "trip_duration"
 - Filtered trip_duration column to only include durations greater than 0 minutes and less than 1440 minutes
+- The final cleaned table now contains 5,765,436 rows of observations
 
 
+### **Analyze:**
 
-### **Analyse:**
+Analysis was completed using both BigQuery and Tableau. The basis for the analysis was to answer:
+
+"How do casual riders and annual members use the Cyclistic bikes differently?"
+
+[SQL Analysis](https://github.com/jasond559/Google_Data_Analytics_Certificate_Cyclistic_Case_Study/blob/main/04_SQL_analysis.sql)
+
+1. **Total trips taken during the 12 month period (Member VS Casual)**
+
+![total_trips](https://github.com/user-attachments/assets/825c1d3b-1087-446d-8198-3058e957354a)
+
+- **Annual Members** account for more trips than **Casual Riders** during the 12 month observation period (3,672,300 vs 2,093,136)
+
+2. **Breakdown of type of bikes used**
+The following figure shows a breakdown of the bikes used for the trips:
+
+![Rideable_type](https://github.com/user-attachments/assets/1f0a7dea-45fe-49ad-b6f8-6f20fd0675e1)
+
+   - There does not appear to be a clear preference towards **classic bikes** or **electric bikes** by either annaul members or casual riders
+   - Although there are three types of bike (**electric bike, classic bike, electric scooter**), the electric scooter was not introduced until 08/31/2024, which could help explain the low usage of that option
+
+3. Average trip duration
+
+![Avg_trip_duration](https://github.com/user-attachments/assets/8d88c6cb-5768-4d98-af7b-e9ca9acda218)
+
+   - The average trip duration for **casual riders** is 21.05 minutes, which is nearly twice as long as those of **annual members** (11.9 minutes)
 
 
+4. Monthly trip breakdown
+
+The following figures show a side by side comparison of both the **number of trips** and the **average trip duration** for each month:
+
+![total_trips_month](https://github.com/user-attachments/assets/82d82a05-a8da-4755-ab05-64314c293a68)
+
+![avg_trip_month](https://github.com/user-attachments/assets/d02de959-10e9-41a0-ab99-ef189f4f22f1)
+
+   - **Annual members** ride Cyclistic bikes *more often*, whereas **casual riders** ride Cyclistic bikes *for longer periods* during each month of the year
+   - Both types of riders use Cyclistic bikes most often during the months of **May, June, July, August, September and October**
+   - The winter months of **December, January, and February** show the lowest usage of Cyclistic bikes for both types of rider
+
+
+5. Daily trip breakdown
+
+The following figures illustrate a side-by-side comparison of the **number of trips** and **average trip duration** for each day of the week:
+
+![total_trips_day](https://github.com/user-attachments/assets/36473969-c9a6-42ea-968f-5b2bc39c0a9e)
+
+![avg_trip_day](https://github.com/user-attachments/assets/980067bb-57d8-418f-93e3-411c2e248243)
+
+   - Annual members utilize Cyclistic bikes more often **during the week** (Monday through Friday), while casual riders' usage peaks **during the weekends**
+   - Here we see the same trend of annual members using Cyclistic more often, but casual riders using the bikes for longer periods on each day of the week
+
+6. Hourly trip breakdown
+
+![total_trips_hour](https://github.com/user-attachments/assets/5ebc80c1-c0dc-4c5a-8b56-812e3a8bf855)
 
 
 ### **Share:**
