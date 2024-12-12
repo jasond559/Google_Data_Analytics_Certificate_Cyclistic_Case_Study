@@ -57,4 +57,12 @@ AVG = 16.81 minutes
 MINIMUM = -2748 minutes
 MAXIMUM = 1559 minutes
 
+SELECT DATETIME_DIFF(ended_at, started_at, MINUTE)
+FROM rare-responder-434108-i0.cyclistic_dataset.cyclistic_table
+WHERE DATETIME_DIFF(ended_at, started_at, MINUTE) <= 0
+    OR DATETIME_DIFF(ended_at, started_at, MINUTE) >= 1440
+ORDER BY DATETIME_DIFF(ended_at, started_at, MINUTE)
+
+There are 140,622 observations showing trip durations less than or equal to 0 or longer than or equal to 1440.
+ 
 I will be including only the trips that are greater than 0 minutes and less than 1440 minutes due to an apparent error in recording the start and end times. Negative trips imply the start and end times were swapped, while those longer than 24 hours could be due to a recording error. 
