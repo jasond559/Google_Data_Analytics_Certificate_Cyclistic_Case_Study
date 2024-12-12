@@ -79,6 +79,7 @@ Analysis was completed using both BigQuery and Tableau. The basis for the analys
 - **Annual Members** account for more trips than **Casual Riders** during the 12 month observation period (3,672,300 vs 2,093,136)
 
 2. **Breakdown of type of bikes used**
+
 The following figure shows a breakdown of the bikes used for the trips:
 
 ![Rideable_type](https://github.com/user-attachments/assets/1f0a7dea-45fe-49ad-b6f8-6f20fd0675e1)
