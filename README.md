@@ -125,8 +125,39 @@ The following figures illustrate a side-by-side comparison of the **number of tr
 
 ### **Share:**
 
+The following dashboard presents highlights of the analyzed data:
+
+![Dashboard](https://github.com/user-attachments/assets/2da75c1b-6154-4417-a3fa-aeefd194f84a)
+
+ **Similarities between riders:** 
+ 
+- Both **annual members** and **casual riders** *increase* their usage of Cyclistic bikes during the warm Spring and Summer months.
+- There is *not* a strong preference between the types of bikes offered through Cyclistic.
+    
+
+ **Differences between riders:**
+- **Annual Members** use Cyclistic more often (take more rides)
+- The average trip duration for **casual riders** is nearly *twice as long* as average trip duration for **annual members**.
+- The use of Cyclistic bikes peaks during the **middle of the week** for annual members, however casual riders increase their usage **during weekends**.
+- The **total trips per hour of day** shows usage for **annual members** peaks both in the *morning and evening*, suggesting annual members utilize Cyclistic bikes for commuting.
+- The usage for **casual members** slowly increases through the afternoon and *peaks in the evening*.
+- The usage pattern for **casual members** could suggest they use bikes for more leisure and sightseeing rather than commuting around the city. 
 
 
 ### **Act:**
+
+**Recommendations:**
+
+Based on the analysis of the data, we can make several recommendations in regards to designing a marketing campaign that focuses on converting casual riders into annual members:
+
+**1. Seasonal Passes**
+
+Offer membership passes for seasons rather than full years. Since we see that casual riders utilize Cyclistic during Spring and Summer, we can create a campaign that offers seasonal passes in an effort to convert the casual riders into members. This would incentivize casual riders who choose to use Cyclistic from May to October to purchase a lower cost membership rather than paying for single rides or day passes.
+
+**2. Weekend Members**
+
+Weekend member subscriptions 
+
+
 
 
