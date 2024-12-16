@@ -156,8 +156,14 @@ Offer membership passes for seasons rather than full years. Since we see that ca
 
 **2. Weekend Members**
 
-Weekend member subscriptions 
+Weekend member subscriptions could provide a valuable incentive to casual riders who predominately use Cyclistic during weekends. As seen in the data, weekends are the most popular days for casual riders. Some of these casual riders may not find the annual membership to be worth the money if they only use the bikes 2 out of the 7 days each week, but if they had an opportunity to purchase a membership that was only valid on weekends at a more affordable cost, there is a possibility that the value would increase for those riders. 
+
+**3. Group Discounts**
+
+Making group membership discounts available to parties of 10 or more could incentivize more people to choose Cyclistic as a viable transportation method. Offices and other workplaces could be targeted for these discounts. Certain workplaces may have multiple employees who use Cyclistic on occasion as there means of transport, and the group discount offered to the employer would allow a previously casual rider to join as an annual member and use Cyclistic bikes more often to commute to and from the office/workplace. 
 
 
+## Conclusion
 
+Over the course of this study, it became quite clear that there are differences in the way casual riders and annual members use Cyclistic bikes. We were able to identify usage patterns and preferences for the two types of riders that could then be utilized in an effective marketing strategy to convert casual riders into annual members. 
 
