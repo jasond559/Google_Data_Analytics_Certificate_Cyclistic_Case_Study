@@ -24,9 +24,9 @@ In order to design the new marketing campaign, the team needs to better understa
 
 ### **Prepare:**
 #### [The Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
-The data used for this case study has been provided by made available by Motivate International Inc under this [license](https://divvybikes.com/data-license-agreement). 
+The data used for this case study has been made available by Motivate International Inc under this [license](https://divvybikes.com/data-license-agreement). 
 
-First party data collected by Motivate International Inc., so concerns about credibility are low. 
+This is first party data collected by Motivate International Inc., so concerns about credibility are low. 
 
 The data is organized in .csv files by month. We are analyzing the previous 12 months as instructed, which in this case study consists of December 2023 through November 2024. Data privacy issues prohibit the data from listing any riders’ personally identifiable information (PII) so it has been removed. The data contains 13 columns for each unique observation: ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual
 
