@@ -72,6 +72,8 @@ Analysis was completed using both BigQuery and Tableau. The basis for the analys
 
 [SQL Analysis](https://github.com/jasond559/Google_Data_Analytics_Certificate_Cyclistic_Case_Study/blob/main/04_SQL_analysis.sql)
 
+For better viewing, please visit my [Tableau Dashboard](https://public.tableau.com/views/CyclisticCaseStudy_17340013373610/Dashboard5?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ### 1. **Total trips taken during the 12 month period (Member VS Casual)**
 
 ![total_trips](https://github.com/user-attachments/assets/825c1d3b-1087-446d-8198-3058e957354a)
